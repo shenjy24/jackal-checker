@@ -1,0 +1,9 @@
+# ????
+text:
+  service: "xunfei"
+  xunfei:
+    appId: ${XUNFEI_APPID:}
+    apiSecret: ${XUNFEI_SECRET:}
+    apiKey: ${XUNFEI_KEY:}
+    apiUrl: https://audit.iflyaisol.com//audit/v2/syncText
+
