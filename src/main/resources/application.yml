@@ -1,4 +1,4 @@
-# ????
+# 文本校验
 text:
   service: "xunfei"
   xunfei:
