@@ -22,11 +22,11 @@ public class XunFeiTextCheckService implements TextCheckService {
 
     @Value("${text.xunfei.appId}")
     private String appId;
-    @Value("${text.xunfei.apiSecret}")
+    @Value("${text.xunfei.secret}")
     private String apiSecret;
-    @Value("${text.xunfei.apiKey}")
+    @Value("${text.xunfei.key}")
     private String apiKey;
-    @Value("${text.xunfei.apiUrl}")
+    @Value("${text.xunfei.url}")
     private String apiUrl;
 
     @Override

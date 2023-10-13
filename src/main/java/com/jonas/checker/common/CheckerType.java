@@ -8,4 +8,6 @@ package com.jonas.checker.common;
 public class CheckerType {
     // 讯飞
     public static final String XUNFEI = "xunfei";
+    // 阿里云
+    public static final String ALIYUN = "aliyun";
 }

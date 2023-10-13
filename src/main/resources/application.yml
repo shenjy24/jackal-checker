@@ -3,7 +3,12 @@ text:
   service: "xunfei"
   xunfei:
     appId: ${XUNFEI_APPID:}
-    apiSecret: ${XUNFEI_SECRET:}
-    apiKey: ${XUNFEI_KEY:}
-    apiUrl: https://audit.iflyaisol.com//audit/v2/syncText
+    key: ${XUNFEI_KEY:}
+    secret: ${XUNFEI_SECRET:}
+    url: https://audit.iflyaisol.com//audit/v2/syncText
+  aliyun:
+    key: ${ALIYUN_KEY:}
+    secret: ${ALIYUN_SECRET:}
+    region: cn-shanghai
+    endpoint: green-cip.cn-shanghai.aliyuncs.com
 
